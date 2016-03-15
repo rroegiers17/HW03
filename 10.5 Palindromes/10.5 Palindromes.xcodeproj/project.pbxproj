@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		2B92AB4F1C98754800BAB467 /* 10.5 Palindromes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10.5 Palindromes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B92AB521C98754800BAB467 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B92AB701C98981100BAB467 /* Palindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				2B92AB521C98754800BAB467 /* main.cpp */,
+				2B92AB701C98981100BAB467 /* Palindrome.h */,
 			);
 			path = "10.5 Palindromes";
 			sourceTree = "<group>";
