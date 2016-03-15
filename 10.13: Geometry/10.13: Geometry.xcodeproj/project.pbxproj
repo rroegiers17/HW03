@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B92AB661C9875F900BAB467 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B92AB651C9875F900BAB467 /* main.cpp */; };
+		2B92AB6E1C987AE900BAB467 /* UML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B92AB6C1C987AE900BAB467 /* UML.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2B92AB621C9875F900BAB467 /* 10.13: Geometry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10.13: Geometry"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B92AB651C9875F900BAB467 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B92AB6D1C987AE900BAB467 /* UML.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UML.xcdatamodel; sourceTree = "<group>"; };
+		2B92AB6F1C987B3E00BAB467 /* RegularPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularPolygon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2B92AB651C9875F900BAB467 /* main.cpp */,
+				2B92AB6C1C987AE900BAB467 /* UML.xcdatamodeld */,
+				2B92AB6F1C987B3E00BAB467 /* RegularPolygon.h */,
 			);
 			path = "10.13: Geometry";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B92AB6E1C987AE900BAB467 /* UML.xcdatamodeld in Sources */,
 				2B92AB661C9875F900BAB467 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B92AB6C1C987AE900BAB467 /* UML.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B92AB6D1C987AE900BAB467 /* UML.xcdatamodel */,
+			);
+			currentVersion = 2B92AB6D1C987AE900BAB467 /* UML.xcdatamodel */;
+			path = UML.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2B92AB5A1C9875F900BAB467 /* Project object */;
 }
