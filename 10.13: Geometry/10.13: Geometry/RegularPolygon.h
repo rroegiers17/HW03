@@ -13,17 +13,17 @@ private:
 public:
     RegularPolygon(); // no-arg constructor that creates a regular polygon
     RegularPolygon(int n1, double s1); // constuctor that creates a regular polygon with specifide sides and lengths centered at (0,0)
-    RegularPolygon(int n1, double s1, double x1, double y1);
-    void setNumberOfSides (const int n1);
-    int getNumberOfSides() const;
-    void setSideLength (const double s1);
-    double getSideLength() const;
-    void setCoordinateX(const double x1);
-    double getCoordinateX() const;
-    void setCoordinateY(const double y1);
-    double getCoordinateY() const;
-    double getPerimeter() const;
-    double getArea() const;
+    RegularPolygon(int n1, double s1, double x1, double y1); //constructor passing in all arguments
+    void setNumberOfSides (const int n1); // setting the number of side
+    int getNumberOfSides() const; // gets number of sides
+    void setSideLength (const double s1); // sets length of sides
+    double getSideLength() const; // gets length of sides
+    void setCoordinateX(const double x1); // sets x-coordinate
+    double getCoordinateX() const; // gets x-coordinate
+    void setCoordinateY(const double y1); // sets y-coordinate
+    double getCoordinateY() const; // gets y-coordinate
+    double getPerimeter() const; // gets perimeter
+    double getArea() const; // gets area
 };
 
 #endif /* RegularPolygon_h */

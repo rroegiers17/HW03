@@ -1,5 +1,7 @@
 
 #include "RegularPolygon.h"
+#include <iostream>
+#include <cmath>
 
 
 const double PI = 3.14159265;
